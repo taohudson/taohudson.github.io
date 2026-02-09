@@ -383,3 +383,27 @@ a:hover{ text-decoration:underline; }
 @media (max-width: 560px){
   .stills{ grid-template-columns: 1fr; }
 }
+
+/* ===== Masters of Craft page tweaks ===== */
+
+/* Center ALL text inside the project page area */
+.project,
+.project * {
+  text-align: center;
+}
+
+/* Title: centered + nicer spacing */
+.project__title{
+  text-align: center;
+  margin: 18px 0 20px;
+}
+
+/* Stills: force true 16:9 */
+.stills img{
+  aspect-ratio: 16 / 9;
+}
+
+/* Credits: slightly bigger */
+.credits{
+  font-size: 13px;
+}
