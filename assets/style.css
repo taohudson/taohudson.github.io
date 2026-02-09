@@ -231,3 +231,38 @@ a:hover{ text-decoration:underline; }
   font-size:12px;
   opacity:0.85;
 }
+
+/* ===== FINAL overlay rules (must be last) ===== */
+
+.tile{
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay{
+  position:absolute;
+  inset:0;
+  opacity:0;
+  background: rgba(0,0,0,0);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  transition: opacity 200ms ease, background 200ms ease;
+  pointer-events:none;
+}
+
+.tile:hover .overlay{
+  opacity:1;
+  background: rgba(0,0,0,0.55);
+}
+
+.meta{
+  color:white;
+  transform: translateY(8px);
+  transition: transform 200ms ease;
+}
+
+.tile:hover .meta{
+  transform: translateY(0);
+}
