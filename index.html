@@ -1,10 +1,61 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Tao Hudson | Cinematography</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tao Hudson — Cinematography</title>
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
-<body style="font-family:sans-serif;text-align:center;padding:80px;">
-  <h1>Hello 👋</h1>
-  <p>This is my new portfolio site.</p>
+<body>
+  <header class="top">
+    <h1 class="name">TAO HUDSON</h1>
+    <p class="role">DIRECTOR OF PHOTOGRAPHY</p>
+
+    <nav class="nav">
+      <a class="active" href="/">COMMERCIAL</a>
+      <a href="/narrative/">NARRATIVE</a>
+      <a href="/info/">INFO</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <!-- Showreel -->
+    <section class="reel" aria-label="Showreel">
+      <div class="video">
+        <!-- Replace the src with your Vimeo/YouTube embed -->
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Showreel"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="grid" aria-label="Selected work">
+      <!-- Duplicate these tiles for each project -->
+      <a class="tile" href="/projects/trufru/">
+        <img src="/assets/img/thumb-01.jpg" alt="TRUFRU — still frame" loading="lazy">
+        <span class="label">TRUFRU</span>
+      </a>
+
+      <a class="tile" href="/projects/project-02/">
+        <img src="/assets/img/thumb-02.jpg" alt="Project 02 — still frame" loading="lazy">
+      </a>
+
+      <a class="tile" href="/projects/project-03/">
+        <img src="/assets/img/thumb-03.jpg" alt="Project 03 — still frame" loading="lazy">
+      </a>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <small>© <span id="y"></span> Tao Hudson</small>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
