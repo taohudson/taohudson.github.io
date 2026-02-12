@@ -407,3 +407,44 @@ a:hover{ text-decoration:underline; }
 .credits{
   font-size: 13px;
 }
+
+/* ===== Info / About page ===== */
+
+.info-page{
+  max-width: 800px;
+  margin: 0 auto 80px;
+}
+
+.about{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 40px 0 60px;
+}
+
+.about p{
+  margin-bottom: 20px;
+}
+
+.credits-list{
+  text-align: center;
+}
+
+.credits-list h3{
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 40px 0 20px;
+}
+
+.credits-list ul{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.credits-list li{
+  margin-bottom: 4px;
+}
