@@ -1,77 +1,98 @@
-<main class="wrap info-page">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Tao Hudson</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
 
-  <!-- Portrait -->
-  <section class="portrait">
-    <img src="/assets/img/tao-portrait.jpg" alt="Tao Hudson portrait">
-  </section>
+<body>
+  <header class="top">
+    <h1 class="name">TAO HUDSON</h1>
+    <p class="role">DIRECTOR OF PHOTOGRAPHY</p>
 
-  <!-- About -->
-  <section class="about">
-    <p>
-      Tao Hudson is a UK based Cinematographer and creative.
-      He has previously won awards in documentary and narrative film and
-      his work has been featured on major streaming platforms.
-    </p>
+    <nav class="nav">
+      <a href="/">HOME</a>
+      <a href="/narrative/">STILLS</a>
+      <a class="active" href="/info/">ABOUT</a>
+    </nav>
+  </header>
 
-    <p>
-      With a decade behind the camera, he has shot across the UK and Europe
-      including Scotland, Wales, Poland and Spain.
-    </p>
-  </section>
+  <main class="wrap info-page">
 
-  <!-- Agencies -->
-  <section class="credits-list">
-    <h3>Agencies & Production Companies</h3>
-    <ul>
-      <li>BeAmazed Media</li>
-      <li>Cookie Cut Media</li>
-      <li>Posh Gecko</li>
-      <li>Studio Yes</li>
-      <li>Large Format Films</li>
-      <li>Matthew Lorenzo Productions</li>
-      <li>Reblis Films</li>
-      <li>Sieve Studio</li>
-      <li>Xiarm Films & Photography</li>
-    </ul>
+    <section class="portrait" aria-label="Portrait">
+      <img src="/assets/img/tao-portrait.jpg" alt="Tao Hudson portrait" loading="lazy">
+    </section>
 
-    <h3>Brands & Platforms</h3>
-    <ul>
-      <li>Chanel (Post-production)</li>
-      <li>Sky TV (Production: camera)</li>
-      <li>Now TV (Production: camera, post-production, crew: camera & electrical training)</li>
-      <li>Virgin Media (Post-production)</li>
-      <li>Top Gear PH (Featured article)</li>
-      <li>Amazon Prime Video (Crew: camera & electrical training)</li>
-      <li>G's Fresh (Production: camera)</li>
-      <li>Tesco (Production: camera)</li>
-      <li>M&S (Production: camera)</li>
-      <li>Waitrose and Partners (Production: camera)</li>
-      <li>Cambridge Building Society (Production: camera)</li>
-    </ul>
-  </section>
+    <section class="about" aria-label="About">
+      <p>
+        Tao Hudson is a Cinematographer and creative based in London, UK. He has previously won awards in documentary and narrative film and his work has been featured on major streaming platforms.
+      </p>
+      <p>
+        With a decade behind the camera he has shot across the UK and Europe including Scotland, Wales, Poland and Spain.
+      </p>
+    </section>
 
-  <!-- Contact -->
-  <section class="contact">
-    <h3>Contact</h3>
-    <p>
-      <a href="mailto:taohudsondp@gmail.com">taohudsondp@gmail.com</a>
-    </p>
+    <section class="credits-list" aria-label="Clients">
+      <h3>Agencies &amp; Production Companies</h3>
+      <ul>
+        <li>BeAmazed Media</li>
+        <li>Cookie Cut Media</li>
+        <li>Posh Gecko</li>
+        <li>Studio Yes</li>
+        <li>Large Format Films</li>
+        <li>Matthew Lorenzo Productions</li>
+        <li>Reblis Films</li>
+      </ul>
 
-    <div class="locations">
-      <div>
-        <strong>LONDON</strong><br>
-        Rotherhithe<br>
-        Surrey Quays<br>
-        London<br>
-        SE8
+      <h3>Brands &amp; Platforms</h3>
+      <ul>
+        <li>Chanel (Post-production)</li>
+        <li>Sky TV (Production: camera)</li>
+        <li>Now TV (Production: camera, post-production, crew: camera and electrical training)</li>
+        <li>Virgin Media (Post-production)</li>
+        <li>Top Gear PH (Featured article)</li>
+        <li>Amazon Prime Video (Crew: camera and electrical, training)</li>
+        <li>G&apos;s Fresh (Production: camera)</li>
+        <li>Tesco (Production: camera)</li>
+        <li>M&amp;S (Production: camera)</li>
+        <li>Waitrose and Partners (Production: camera)</li>
+        <li>Cambridge Building Society (Production: camera)</li>
+      </ul>
+    </section>
+
+    <section class="contact" aria-label="Contact">
+      <h3>Contact</h3>
+      <p class="email">
+        <a href="mailto:taohudsondp@gmail.com">taohudsondp@gmail.com</a>
+      </p>
+
+      <div class="locations">
+        <div class="loc">
+          <strong>LONDON</strong><br>
+          Rotherhithe,<br>
+          Surrey Quays,<br>
+          London,<br>
+          SE8
+        </div>
+
+        <div class="loc">
+          <strong>CAMBRIDGESHIRE</strong><br>
+          Wisbech,<br>
+          PE13
+        </div>
       </div>
+    </section>
 
-      <div>
-        <strong>CAMBRIDGESHIRE</strong><br>
-        Wisbech<br>
-        PE13
-      </div>
-    </div>
-  </section>
+  </main>
 
-</main>
+  <footer class="foot">
+    <small>© <span id="y"></span> Tao Hudson</small>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
