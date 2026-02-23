@@ -272,7 +272,7 @@ a:hover{ text-decoration:underline; }
   position: relative;
   overflow: hidden;
   background: #000;
-  aspect-ratio: 16 / 10;  /* keep your current ratio */
+  aspect-ratio: 16 / 9;  /* keep your current ratio */
 }
 
 /* Force the image to fill the tile */
@@ -306,7 +306,7 @@ a:hover{ text-decoration:underline; }
   height:100%;
   object-fit: cover;
   display:block;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   background:#000;
 }
 
@@ -350,7 +350,7 @@ a:hover{ text-decoration:underline; }
   height:100%;
   object-fit: cover;
   display:block;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   background:#000;
 }
 
