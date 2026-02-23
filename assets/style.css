@@ -670,34 +670,35 @@ a:hover{ text-decoration:underline; }
   }
 }
 
-/* Logos strip (under showreel) */
-.logos {
-  /* reduce dead space */
-  margin: 22px auto 28px;
-  padding: 0;
+/* =========================
+   Brand logos strip (HOME)
+   ========================= */
 
-  /* remove tiny inline-image gap */
-  font-size: 0;
+.brand-logos{
+  /* Reduce dead space above/below the logos */
+  margin: 18px auto 28px;
+  padding: 0 18px;
+  text-align: center;
 }
 
-.logos img {
+.brand-logos img{
+  /* Never crop/zoom — always show the whole image */
   display: block;
   width: 100%;
-  max-width: 750px; /* keep your desktop size */
   height: auto;
+  max-width: 750px;     /* your desktop size */
+  object-fit: contain;  /* key line: prevents cropping */
   margin: 0 auto;
-
-  /* belt & braces for baseline/spacing quirks */
-  vertical-align: middle;
 }
 
-/* Mobile: tighter spacing */
-@media (max-width: 800px) {
-  .logos {
-    margin: 12px auto 18px;
+/* On mobile, let it fill the screen nicely */
+@media (max-width: 800px){
+  .brand-logos{
+    margin: 14px auto 22px;
+    padding: 0 14px;
   }
 
-  .logos img {
-    max-width: 100%; /* mobile stays full width */
+  .brand-logos img{
+    max-width: 100%;
   }
 }
