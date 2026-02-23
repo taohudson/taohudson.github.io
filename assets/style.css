@@ -670,22 +670,34 @@ a:hover{ text-decoration:underline; }
   }
 }
 
-/* Brand logos section */
-.brand-logos{
-  margin: 60px 0 80px;
-  text-align: center;
+/* Logos strip (under showreel) */
+.logos {
+  /* reduce dead space */
+  margin: 22px auto 28px;
+  padding: 0;
+
+  /* remove tiny inline-image gap */
+  font-size: 0;
 }
 
-.brand-logos img{
+.logos img {
+  display: block;
   width: 100%;
-  max-width: 750px;   /* ~20% smaller on desktop */
+  max-width: 750px; /* keep your desktop size */
   height: auto;
-  opacity: 0.85;
+  margin: 0 auto;
+
+  /* belt & braces for baseline/spacing quirks */
+  vertical-align: middle;
 }
 
-/* Keep mobile full width */
-@media (max-width: 800px){
-  .brand-logos img{
-    max-width: 100%;
+/* Mobile: tighter spacing */
+@media (max-width: 800px) {
+  .logos {
+    margin: 12px auto 18px;
+  }
+
+  .logos img {
+    max-width: 100%; /* mobile stays full width */
   }
 }
