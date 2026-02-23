@@ -93,7 +93,7 @@ a:hover{ text-decoration:underline; }
   display:block;
   background:#000;
   overflow:hidden;
-  aspect-ratio: 16 / 10; /* similar vibe to the screenshot */
+  aspect-ratio: 16 / 9; /* similar vibe to the screenshot */
 }
 
 .tile img{
