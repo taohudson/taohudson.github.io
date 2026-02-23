@@ -678,7 +678,7 @@ a:hover{ text-decoration:underline; }
 
 .brand-logos img{
   width: 100%;
-  max-width: 950px;   /* ~20% smaller on desktop */
+  max-width: 750px;   /* ~20% smaller on desktop */
   height: auto;
   opacity: 0.85;
 }
