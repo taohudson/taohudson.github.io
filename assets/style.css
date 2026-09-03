@@ -405,3 +405,12 @@ body {
         font-size: 10px;
     }
 }
+
+/* Remove gap between brand logos and stills */
+.brands {
+    margin-bottom: 0;
+}
+
+.grid {
+    margin-top: 0;
+}
