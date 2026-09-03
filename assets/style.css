@@ -200,11 +200,9 @@ body {
 
 .brands img {
     display: block;
-
-    width: 68%;
-    max-width: 1000px;
+    width: 50%;
+    max-width: 1400px;
     height: auto;
-
     margin: 0 auto;
 }
 
