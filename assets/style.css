@@ -228,32 +228,28 @@ body {
 
 /* Individual row */
 
+/* Individual row */
+
 .still-row {
     position: relative;
     width: 65%;
     margin: 0 auto 28px;
+    overflow: hidden;
+    cursor: default;
 }
 
 .still-row:last-child {
     margin-bottom: 0;
 }
 
-    width: 100%;
-
-    overflow: hidden;
-
-    cursor: default;
-}
-
 .still-row img {
     display: block;
-
     width: 100%;
     height: auto;
-
+    aspect-ratio: 5760 / 1080;
+    object-fit: cover;
     margin: 0;
     padding: 0;
-
     transition: transform 0.35s ease;
 }
 
