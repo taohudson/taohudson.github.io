@@ -32,13 +32,13 @@ body {
 
 .site-header {
     width: 100%;
-    background: #0d0d0d;
+    background: #000000;
 }
 
 .logo-link {
     display: block;
     width: 100%;
-    background: #0d0d0d;
+    background: #000000;
     text-align: center;
     padding-top: 25px;
 }
@@ -58,7 +58,7 @@ body {
 
 .navigation {
     width: 100%;
-    background: #0d0d0d;
+    background: #000000;
 
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@ body {
 
 .intro {
     width: 100%;
-    background: #0d0d0d;
+    background: #000000;
 
     display: flex;
     justify-content: center;
@@ -139,7 +139,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    background: #0d0d0d;
+    background: #000000;
 }
 
 .banner video {
@@ -188,7 +188,7 @@ body {
 
 .brands {
     width: 100%;
-    background: #0d0d0d;
+    background: #000000;
     overflow: hidden;
 
     display: flex;
