@@ -32,17 +32,20 @@ body {
 
 .site-header {
     width: 100%;
-    background: #ffffff;
+    background: #0d0d0d;
 }
 
 .logo-link {
     display: block;
     width: 100%;
+    background: #0d0d0d;
+    text-align: left;
 }
 
 .site-logo {
     display: block;
-    width: 100%;
+    width: 1200px;
+    max-width: 100%;
     height: auto;
 }
 
