@@ -710,3 +710,32 @@ body {
     gap: 20px;
   }
 }
+
+/* YOUTUBE CHANNEL LINK */
+
+.youtube-more {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.youtube-more a {
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: opacity 0.25s ease;
+}
+
+.youtube-more a:hover {
+  opacity: 0.55;
+}
+
+@media (max-width: 700px) {
+  .youtube-more {
+    margin-top: 40px;
+  }
+
+  .youtube-more a {
+    font-size: 11px;
+  }
+}
