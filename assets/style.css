@@ -744,13 +744,14 @@ body {
 
 .about-page {
   width: 100%;
-  background: #ffffff;
+  background: #000000;
+  color: #ffffff;
   padding: 70px 60px 90px;
   box-sizing: border-box;
 }
 
 .about-intro {
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -765,6 +766,7 @@ body {
 }
 
 .about-bio {
+  color: #ffffff;
   font-size: 15px;
   line-height: 1.7;
 }
